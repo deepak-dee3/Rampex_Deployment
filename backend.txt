@@ -1,0 +1,35 @@
+npm init -y
+npm i express nodemon 
+
+nodemon - continous flow , without terminating the work in backend.
+package.json -> scripts ->removed test & replace "start":"nodemon Server.js".
+
+http METHODS - 
+
+  GET (read) = return a data/value
+
+  PUT (update)= update whole data
+
+  PATCH (update)= update a particular data (used only in js)
+
+  POST (create) = create a new data
+
+  DELETE (delete) = delelte a new 
+ 
+
+
+http status code -
+
+  status code = 200 = return sucess messages
+              = 300 = redirection messages
+              = 400 = client side error
+              = 500 = server side error
+              = 100 = information exchange
+
+html file in backend = npm i ejs in terminal , create view folder and create index.ejs and shift+1 and enter
+
+
+MVC Architecture - Model View Controller
+
+
+req,res,next ; next = is a middleware ;  
